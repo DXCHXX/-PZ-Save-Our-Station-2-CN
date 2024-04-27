@@ -1,4 +1,4 @@
-# -PZ-_Save-Our-Station-KnoxCountry-2-CN
+# -PZ-_Save-Our-Station-2-CN
 
 Project Zomboid mod Save Our Station! 汉化
 
