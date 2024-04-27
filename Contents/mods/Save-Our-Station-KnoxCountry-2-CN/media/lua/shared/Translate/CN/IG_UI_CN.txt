@@ -1,0 +1,5 @@
+IG_UI_CN = {
+    IGUI_VehicleNameSWWS_PickUp = "气象服务皮卡车",
+    IGUI_VehicleNameSWWS_PickUpVan = "气象服务面包车",
+    IGUI_VehicleNameSWWS_Radio = "气象服务移动实验室",
+}

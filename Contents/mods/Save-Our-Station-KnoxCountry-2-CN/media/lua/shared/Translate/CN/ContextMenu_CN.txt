@@ -1,0 +1,6 @@
+ContextMenu_CN = {
+    Texture_Register_KnoxCountry = "诺克斯国家",
+    Texture_Register_Title = "国家气象站注册",
+    Texture_Register_Footer_Seal = "国家气象服务",
+    Texture_Register_Footer_Unauthorized = "未经授权的分发属于联邦犯罪",
+}

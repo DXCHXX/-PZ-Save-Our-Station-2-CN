@@ -1,0 +1,39 @@
+Sandbox_CN = {
+	Sandbox_SaveOurStationCore = "拯救我们的站点！",
+
+	Sandbox_SaveOurStationCore_RequirePowerShutoff = "需要 Knox 电网关闭",
+	Sandbox_SaveOurStationCore_RequirePowerShutoff_tooltip = "Knox 电网需要在广播故障/中断开始发生之前失败吗？",
+
+	Sandbox_SaveOurStationCore_EnableInterruptions = "启用广播中断",
+	Sandbox_SaveOurStationCore_EnableInterruptions_tooltip = "广播中断可能会随机发生，并导致诸如天气预报和空中交通雷达等系统暂时停止工作。中断将在一段时间后自行解决。",
+
+	Sandbox_SaveOurStationCore_EnableFaults = "启用广播故障",
+	Sandbox_SaveOurStationCore_EnableFaults_tooltip = "广播故障可能会随机发生，如果玩家不修复，最终将导致广播系统永久故障。一旦故障被识别，广播系统将提供诊断代码和受影响系统的位置。更多信息可通过 NWS 诊断手册和注册表获取。",
+
+	Sandbox_SaveOurStationCore_ReliabilityProfile = "广播可靠性配置",
+	Sandbox_SaveOurStationCore_ReliabilityProfile_tooltip = "可靠性配置确定故障或中断发生的概率/几率。",
+	Sandbox_SaveOurStationCore_ReliabilityProfile_option1 = "良好维护 | 故障稀少，中断稀少",
+	Sandbox_SaveOurStationCore_ReliabilityProfile_option2 = "可靠 | 故障稀少，偶尔中断",
+	Sandbox_SaveOurStationCore_ReliabilityProfile_option3 = "正常 | 故障稀少，中断频繁",
+	Sandbox_SaveOurStationCore_ReliabilityProfile_option4 = "不可靠 | 偶尔故障，中断频繁",
+	Sandbox_SaveOurStationCore_ReliabilityProfile_option5 = "无法挽回 | 故障频繁，中断频繁",
+
+	Sandbox_SaveOurStationCore_TimeDurationMultiplier = "时间持续性倍增器",
+	Sandbox_SaveOurStationCore_TimeDurationMultiplier_tooltip = "此倍增器影响故障/中断周期持续时间，修复故障的时间以及每个周期之间的“宽限期”持续时间。",
+	Sandbox_SaveOurStationCore_TimeDurationMultiplier_option1 = "12倍 | 非常短（大型服务器推荐）",
+	Sandbox_SaveOurStationCore_TimeDurationMultiplier_option2 = "18倍 | 短",
+	Sandbox_SaveOurStationCore_TimeDurationMultiplier_option3 = "24倍 | 正常（单人游戏推荐）",
+	Sandbox_SaveOurStationCore_TimeDurationMultiplier_option4 = "32倍 | 长",
+
+	Sandbox_SaveOurStationCore_OmitDiagnosticCode = "省略故障诊断代码？"
+	Sandbox_SaveOurStationCore_OmitDiagnosticCode_tooltip = "启用此选项将在故障诊断消息中省略故障诊断代码。您需要先前往受影响位置才能找到故障原因和修复方法。"
+
+	Sandbox_SaveOurStationCore_OmitLocation = "省略故障位置？"
+	Sandbox_SaveOurStationCore_OmitLocation_tooltip = "警告 - 此设置不适合胆小的人！ | 启用此选项将在故障诊断消息中省略故障位置。在发生故障时，您需要前往每个站点，直到找到受影响的站点。"
+
+	Sandbox_SaveOurStationCore_OmitShutdownTime = "省略紧急关机时间？"
+	Sandbox_SaveOurStationCore_OmitShutdownTime_tooltip = "启用此选项将在故障诊断消息中省略紧急关机/待机的时间。您将不会知道系统何时关闭并进入紧急待机，直到为时已晚。"
+
+	Sandbox_SaveOurStationCore_EnableDebugging = "启用高级调试信息？",
+	Sandbox_SaveOurStationCore_EnableDebugging_tooltip = "勾选此框将使 Save Our Station 输出额外信息到 PZ 游戏日志。除非您知道自己在做什么，或者已被要求打开以提供额外信息来诊断问题，否则应保持关闭。",
+}

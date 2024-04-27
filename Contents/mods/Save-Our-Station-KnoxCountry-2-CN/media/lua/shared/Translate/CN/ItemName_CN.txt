@@ -1,0 +1,4 @@
+ItemName_CN = {
+    ItemName_Base.SWWS_KnoxCountry_Register = "NWS 注册",
+    ItemName_Base.SWWS_KnoxCountry_RegisterAnnotated = "NWS 注册 - 带注释",
+}
